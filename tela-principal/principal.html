@@ -1,0 +1,50 @@
+<html>
+<head>
+    <script src="../sonic/sonic.js"></script>
+    <script src="../donkey-kong/donkey.js"></script>
+    <script src="../pac-man/pacMan.js"></script>
+    <script src="../kirby/kirby.js"></script>
+    <script src="../mario-bros/mario.js"></script>
+    <script src="principal.js"></script>
+    <link rel="stylesheet" href="principal.css">
+
+</head>
+<body>
+    
+    <nav id="telaInicial">
+        <img id="sheki" src="https://orig00.deviantart.net/bc80/f/2013/352/9/9/kirby_and_luma_by_utarise_sama-d6yhi1q.gif" alt=""><br>
+        
+        <div id="o">
+            <button id="h" type="button" id="inicio" onclick="principalController.inicial()">inicio</button>
+       
+        <div id="o">
+            <button id="m"type="button" id="mario" onclick="principalController.mario()">Mario Bros</button>
+        </div>
+        <div id="o">
+            <button id="k"type="button" id="kirby" onclick="principalController.kirby()">Kirby</button>
+        </div>
+        <div id="o">
+            <button id="p"type="button" id="pacMan" onclick="principalController.pacMan()">Pac-Man</button>
+        </div>
+        <div id="o">
+            <button id="d"type="button" id="Donkey" onclick="principalController.donkeyKong()">Donkey Kong</button>
+        </div>
+        <div id="o">
+             <button id="s"type="button" id="sonic" onclick="principalController.sonic()">Sonic</button>
+        </div>
+    
+    </nav>
+    <input type="text" id="buscador" placeholder="Buscador" onkeydown="principalController.buscar(event)" onkeypress="principalController.buscar(event)">
+    <div id="cambio">
+           <div id="aranha">
+             <div>
+                <span class="parpadea text" id="parpadeo"><strong> atenção </strong>  
+             </div>
+             Esta página imita a função de um almanaque onde você pode encontrar jogos que marcaram a história da humanidade, tanto por sua relevância no tempo e agora, que tanto crianças quanto adultos entre 25-40 sabem em sua grande maioria. 
+
+           </div>
+           
+    </div>
+</body>
+
+</html>

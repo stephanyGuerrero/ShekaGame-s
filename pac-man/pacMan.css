@@ -1,0 +1,14 @@
+body{
+    background-image: url(https://images7.alphacoders.com/503/thumb-1920-503083.png);
+   background-size: cover; 
+   text-align: center;
+}
+
+h1{
+    text-shadow: 0 0 30px #fff;
+    color: rgb(247, 242, 0);
+    font-size:70px;
+    margin-top: 35px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);}
+

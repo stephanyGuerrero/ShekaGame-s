@@ -1,0 +1,18 @@
+body{
+    background-image: url(http://www.gifsanimes.fr/fonds-ecran/fonds-ecran/kirby/kirby-gifs-animes-2125002.jpg);
+   background-size: cover; 
+   text-align: center;
+   font-family: trebuchet ms;
+}
+   
+
+h1{
+    text-shadow: 0 0 30px rgb(247, 203, 203);
+    color: rgb(223, 172, 216);
+    font-size:70px;
+    margin-top: 35px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(196, 57, 133);
+    
+
+}

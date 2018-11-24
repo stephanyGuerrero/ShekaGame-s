@@ -1,0 +1,57 @@
+ body{
+   background-color: black; 
+   text-align: center;  
+ }
+h1{   font-family:helvetica;
+      color: azure;
+      text-shadow: 0 0 30px #fff;
+      font-size: 35px;
+      margin-top: 30px;
+  }
+  #gifAbertura{
+     
+      
+      border-radius: 30px;
+      box-shadow: 0 0 30px cornflowerblue;
+  }
+  #parpa{
+    margin-top: 20px;
+  }
+  .text {
+    font-size:35px;
+    font-family:helvetica;
+    font-weight:bold;
+    color:azure;
+    text-transform:uppercase;
+    text-shadow: 0 0 30px #fff;
+  }
+  .parpadea {
+    
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }

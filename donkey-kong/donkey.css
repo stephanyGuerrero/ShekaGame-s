@@ -1,0 +1,18 @@
+body{
+    background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/20399.jpg);
+   background-size: cover; 
+   text-align: center;
+   font-family: trebuchet ms;
+}
+   
+
+h1{
+    text-shadow: 0 0 30px rgb(247, 140, 140);
+    color: rgb(226, 204, 7);
+    font-size:70px;
+    margin-top: 35px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(201, 34, 34);
+    
+
+}
